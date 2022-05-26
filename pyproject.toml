@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "streamlit-example"
+version = "0.1.0"
+description = ""
+authors = ["alex-antonison-mtsu <aantonison@mtsu.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+altair = "^4.2.0"
+pandas = "^1.4.2"
+streamlit = "^1.9.0"
+psycopg2-binary = "^2.9.3"
+SQLAlchemy = "^1.4.36"
+protobuf = "3.20.*"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
