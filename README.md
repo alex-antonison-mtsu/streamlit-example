@@ -1,6 +1,19 @@
-# Welcome to Streamlit!
+# Streamlit Database Example App
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
+To get started with this, you will need to install Python 3.10. I recommend using pyenv, [see here for instructions](https://github.com/mtsu-data-science/data-science-sandbox/blob/main/environment-setup/setup-pyenv.md).
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+With Python 3.10 installed, you then need to install poetry to set up the virtual environment.
+
+```bash
+pip install poetry
+```
+
+With poetry installed, open your command line in this folder and run
+
+```bash
+poetry install
+```
+
+You then need to create a copy of the [.streamlit/secrets-sample.toml](.streamlit/secrets-sample.toml) to `.streamlit/secrets.toml` and then fill in the username, password, and host.
+
+Once done, you can then do `make run-app` to run the streamlit app.
